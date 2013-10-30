@@ -1,5 +1,7 @@
+$LOAD_PATH.unshift File.join(File.dirname(__FILE__), '..', 'lib')
+
 require 'spec_helper'
-require_relative '../lib/zombie'
+require 'zombie'
 
 describe Zombie do
 	it 'is Ash' do
